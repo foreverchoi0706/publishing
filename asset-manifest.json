@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sass_clone/static/css/main.5facb584.chunk.css",
-    "main.js": "/sass_clone/static/js/main.c414c342.chunk.js",
-    "main.js.map": "/sass_clone/static/js/main.c414c342.chunk.js.map",
+    "main.js": "/sass_clone/static/js/main.0620c47f.chunk.js",
+    "main.js.map": "/sass_clone/static/js/main.0620c47f.chunk.js.map",
     "runtime-main.js": "/sass_clone/static/js/runtime-main.171cb7eb.js",
     "runtime-main.js.map": "/sass_clone/static/js/runtime-main.171cb7eb.js.map",
     "static/js/2.5f62ad6f.chunk.js": "/sass_clone/static/js/2.5f62ad6f.chunk.js",
     "static/js/2.5f62ad6f.chunk.js.map": "/sass_clone/static/js/2.5f62ad6f.chunk.js.map",
     "index.html": "/sass_clone/index.html",
-    "precache-manifest.85180fc9b5cb7e0d0c3894aacc25f27a.js": "/sass_clone/precache-manifest.85180fc9b5cb7e0d0c3894aacc25f27a.js",
+    "precache-manifest.5a96e01d20169ab8eb4699efd7f71c20.js": "/sass_clone/precache-manifest.5a96e01d20169ab8eb4699efd7f71c20.js",
     "service-worker.js": "/sass_clone/service-worker.js",
     "static/css/main.5facb584.chunk.css.map": "/sass_clone/static/css/main.5facb584.chunk.css.map",
     "static/js/2.5f62ad6f.chunk.js.LICENSE.txt": "/sass_clone/static/js/2.5f62ad6f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.171cb7eb.js",
     "static/js/2.5f62ad6f.chunk.js",
     "static/css/main.5facb584.chunk.css",
-    "static/js/main.c414c342.chunk.js"
+    "static/js/main.0620c47f.chunk.js"
   ]
 }

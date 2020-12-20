@@ -6,9 +6,9 @@ import "../styles/Home.scss";
 function Home() {
   return (
     <div className="Home">
-      <Link to="/sass_clone/Besthorrorscenes">Besthorrorscenes</Link>
-      <Link to="/sass_clone/Painbox">Painbox</Link>
-      <Link to="/sass_clone/Balenciaga">Balenciaga</Link>
+      <Link to="/publishing/Besthorrorscenes">Besthorrorscenes</Link>
+      <Link to="/publishing/Painbox">Painbox</Link>
+      <Link to="/publishing/Balenciaga">Balenciaga</Link>
     </div>
   );
 }

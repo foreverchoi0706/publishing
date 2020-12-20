@@ -12,16 +12,16 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter className="App-BrowserRouter">
-        <Route exact={true} path="/sass_clone/" component={Home} />
+        <Route exact={true} path="/publishing" component={Home} />
         <Route
           exact={true}
-          path="/sass_clone/Besthorrorscenes"
+          path="/publishing/Besthorrorscenes"
           component={Besthorrorscenes}
         />
-        <Route exact={true} path="/sass_clone/Paintbox" component={Paintbox} />
+        <Route exact={true} path="/publishing/Paintbox" component={Paintbox} />
         <Route
           exact={true}
-          path="/sass_clone/Balenciaga"
+          path="/publishing/Balenciaga"
           component={Balenciaga}
         />
         <Route exact={true} />

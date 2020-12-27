@@ -101,3 +101,7 @@ h1 {
     font-size: 1rem;
   }
 }
+
+@media(max-width : 368px){
+
+}

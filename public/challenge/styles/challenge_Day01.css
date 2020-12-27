@@ -31,11 +31,10 @@ body {
 
   display: flex;
   flex-direction: column;
-
 }
 
 .paper-head-title {
-  font-size:5rem;
+  font-size: 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -55,23 +54,48 @@ hr {
   align-items: center;
 }
 
-.one-circle {
+.paper-body > div {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+.one-circle {
   background-color: powderblue;
 }
-
 .two-circle {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
   background-color: coral;
 }
-
 .three-circle {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
   background-color: rebeccapurple;
+}
+@media (max-width: 768px) {
+  .paper {
+    width: 450px;
+  }
+  .paper-head-title {
+    font-size: 3rem;
+  }
+  .paper-head-contents {
+    font-size: 0.8rem;
+  }
+  .paper-body > div {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 320px) {
+  .paper {
+    width: 300px;
+  }
+  .paper-head-title {
+    font-size: 2rem;
+  }
+  .paper-head-contents {
+    font-size: 0.6rem;
+  }
+  .paper-body > div {
+    width: 75px;
+    height: 75px;
+  }
 }

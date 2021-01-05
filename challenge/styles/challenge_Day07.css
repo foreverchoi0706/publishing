@@ -19,7 +19,6 @@ header > details {
   flex-shrink: 1;
   border: 1px solid black;
   display: flex;
-  
 }
 
 main {
@@ -49,4 +48,11 @@ main > section > div:nth-child(even) {
 div > img {
   width: 250px;
   height: inherit;
+}
+
+@media (max-width: 800px) {
+  div > img {
+    width: 100%;
+    height: inherit;
+  }
 }

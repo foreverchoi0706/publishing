@@ -10,11 +10,11 @@ body {
 }
 
 main {
-  height: calc( 100vh - 30px );
+  height: calc(100vh - 30px);
   margin: 15px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 40px calc( 100vh - 80px ) 40px;
+  grid-template-rows: 40px 1fr 40px;
 }
 
 .horizontal-bar {
@@ -35,7 +35,7 @@ main {
 
 .contents > img {
   flex-grow: 1;
-  height: calc(100vh - 70px);
+  height: 50%;
 }
 
 .contents > h1 {
@@ -57,4 +57,15 @@ main {
   justify-content: center;
   align-items: center;
   writing-mode: tb-rl;
+}
+
+@media (max-width: 786px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 314px) {
+  body {
+    font-size: 0.5rem;
+  }
 }

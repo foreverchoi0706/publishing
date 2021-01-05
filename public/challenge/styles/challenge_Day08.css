@@ -10,7 +10,6 @@ body {
 
 main {
   display: flex;
-  gap: 1px;
 }
 
 h1 {
@@ -47,7 +46,6 @@ section:nth-child(1) > ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  gap: 1px;
   height: 100vh;
 }
 
@@ -63,6 +61,7 @@ section:nth-child(1) > ul > li {
 
 section:nth-child(2) {
   background-color: plum;
+  height: 100vh;
 }
 
 section:nth-child(2) > div {
@@ -78,8 +77,27 @@ section:nth-child(2) > div {
 section:nth-child(3) {
   flex-grow: 1;
   background-color: black;
+  height: 100vh;
 }
 
 section:nth-child(3) > img {
   width: 600px;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  section:nth-child(1) > ul {
+    height: auto;
+  }
+  section:nth-child(2) {
+    display: none;
+  }
+
+  section:nth-child(3) > img {
+    width: 100vw;
+    height: 100%;
+  }
 }

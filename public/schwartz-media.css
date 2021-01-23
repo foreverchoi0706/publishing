@@ -43,7 +43,7 @@ main {
 }
 
 .main-img {
-  width: 90vw;
+  width: 70vw;
 }
 
 p {
@@ -61,4 +61,27 @@ hr {
 
 section {
   display: flex;
+  width: 60vw;
+}
+
+.section-img {
+ 
+}
+.section-contents{
+  padding: 20px;
+}
+.section-contents > div {
+ 
+  text-align: start;
+  width: 100%;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: rgba(33, 32, 32, 0.83);
+}
+
+
+@media(){
+  
 }
